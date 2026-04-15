@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller: Electricidad y Ahorro</title>
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --electric-blue: #00d4ff;
+            --electric-yellow: #f0db4f;
+            --text: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100-vh;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 400px;
+            border: 2px solid var(--electric-blue);
+            border-radius: 15px;
+            box-shadow: 0 0 15px var(--electric-blue);
+            margin: 20px;
+        }
+        h1 { color: var(--electric-yellow); text-transform: uppercase; margin-bottom: 10px; }
+        .price { font-size: 2rem; font-weight: bold; color: var(--electric-blue); }
+        ul { text-align: left; list-style: "⚡ "; padding-left: 20px; }
+        li { margin: 10px 0; font-size: 1.1rem; }
+        .cta-button {
+            display: block;
+            background-color: #25d366;
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .details { margin-top: 15px; font-size: 0.9rem; opacity: 0.8; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Taller de Electricidad Residencial</h1>
+        <p>Aprende a bajar tu recibo y proteger tu hogar.</p>
+        
+        <div class="price">S/ 10.00</div>
+        
+        <ul>
+            <li>Detecta fugas de energía</li>
+            <li>Cambia enchufes y focos de forma segura</li>
+            <li>Protección contra subidas de tensión</li>
+            <li>Lectura real de tu recibo de luz</li>
+        </ul>
+
+        <div class="details">
+            📅 Sábado 18 de Abril | ⏰ 7:00 PM <br>
+            📍 Vía Google Meet (En vivo)
+        </div>
+
+        <a href="https://wa.me/51999999999?text=Hola,%20quiero%20inscribirme%20al%20taller%20de%20electricidad" class="cta-button">
+            Inscribirme por WhatsApp
+        </a>
+        
+        <p style="font-size: 0.8rem; margin-top: 15px;">Aceptamos Yape y Plin</p>
+    </div>
+</body>
+</html>
+
